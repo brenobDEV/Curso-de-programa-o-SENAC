@@ -1,0 +1,86 @@
+certificados {
+    margin: 0;
+}
+
+header div p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header div {
+    margin-left: 10px;
+
+}
+
+
+header {
+    background-color: #FFF7F8;
+    border: 2px solid aqua;
+    border-bottom: 4px solid lightcoral;
+    border-radius: 10px;
+    border-left: 4px solid lightcoral;
+}
+
+
+
+h1 {
+    color: lightcoral;
+    -webkit-text-stroke: 2px black;
+    ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: tomato;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.2mm;
+    font-size: 30px;
+}
+
+li {
+    color: darkblue;
+    font-size: large;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+section {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    font-size: x-large;
+    
+    &:hover {
+        color: purple;
+    }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight Silksong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="Imagens/logo.png" alt="Silksong logo"> 
+        <h1>Um novo universo de Hollow Knight. Novos bosses, insetos e personagens para enfrentar!</p>
+        </h1>
+        </section>
+    </header>
+
+
+    <nav>
+       <ul> 
+        <img id="logo2" src="Imagens/mini logo.png" alt="Mini hornet">
+        
+        <div class="Links">
+        <a href="index.html">
+            <p> Início </p>
+        </a>
+
+        <a href="Trailer.html">
+            <p> Trailer </p>
+        </a>
+
+         <a href="Sonora.html">
+            <p>Trilha Sonora </p>
+        </a>
+
+        <a href="Data.html">
+            <p> Lançamento </p>
+        </a>
+    </ul>
+</div>
+    </nav>
+    
+    <main>
+
+    <h2>Formulário para Lista-De-Espera</h2>
+    <br><br>
+    <form action="#" method="post">
+        <h2>Formulário</h2>
+        <div class="acampo">
+            <label for="name">Digite seu nome: </label>
+                <input 
+                    type="text"
+                    id="nome"
+                    placeholder="Exemplo:   Pedro"
+                    required>
+        </div>
+
+        <div class="acampo">
+            <label for="idade">Sua idade:</label>
+            <input 
+            type="number"
+            id="idade"
+            placeholder="Sua idade"
+            min="16"
+            required>
+            
+        </div>
+
+        <div class="acampo">
+            <label for="email"> E-mail ✉️</label>
+            <input
+            type="email"
+            id="email"
+            name="e-mail"
+            placeholder="e-mail@gmail.com"
+            required >
+
+        </div>
+
+        <div class="acampo">
+            <label for="telefone">Telefone 📞(Opcional)</label>
+            <input 
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="(21) 99999-9999"
+            pattern="\(?\d{2}\)\s?\d{5,4}-?\d{4}"> 
+
+        </div>
+        
+        <div class="campo">
+            <label for="plataforma">Plataforma que usa 👾: </label>
+           <select id="plataforma" name="plataforma">
+            <option value="">Selecione...</option>
+            <option value="playstation">PlayStation</option>
+            <option value="xbox">Xbox</option>
+            <option value="pc">PC</option>
+            <option value="switch">Nintendo Switch</option>
+           </select>
+        </div>
+    
+
+        <div class="campo">
+            <fieldset class="">
+                <legend>Já jogou um jogo estilo MetroidVania?</legend>
+            
+            <label for="metroidvania-sim">
+            <input type="radio" id="metroidvania-sim" name="metroidvania" value="sim">
+            Sim
+            </label>
+            
+            <label for="metroidvania-nao">
+                <input type="radio" id="metroidvania-nao" name="metroidvania" value="nao">
+                Não
+            
+            </label>
+
+            <label for="metroidvania-seila">
+                <input type="radio" id="metroidvania-seila" name="metroidvania" value="seila">
+                Talvez
+                </label>
+           </select>
+        </fieldset>
+    </div>
+
+    <div class="campo">
+        <fieldset class="">
+            <legend>Preferências</legend>
+            <label for="novidades"></label>
+            <input type="checkbox" id="novidades" name="novidades" value="sim">
+            Aceito receber novidades por email
+        
+          <br>
+            <label for="early-acess"></label>
+            <input type="checkbox" id="early-acess" name="early-acess" value="sim">
+            Aceito participar do acesso antecipado!
+        </fieldset>
+    </div>
+
+        <div class="campo">
+            <label for="cor">Selecione sua cor favorita:</label>
+            <input type="color" id="cor-favorita" name="cor-favorita" value="#ffffff">
+        </div>
+
+        <div class="campo">
+            <label for="arquivo">Enviar fan-art para recompensa exclusiva (opcional):</label>
+            <input type="file" id="arquivo" name="arquivo">
+        </div>
+
+        <div class="campo">
+            <label for="recado">Espaço para recados/dicas (opcional):</label>
+            <textarea id="recado" name="recado" rows="4" placeholder="O que você mais espera que tenha no jogo?"></textarea>
+        </div>
+    <br>
+    <br>
+        <section id="bb">
+        <button class="butao_campo" type="submit">Enviar formulário</button> 
+        <button class="butao_campo" type="reset">Apagar formulário</button>
+        <br>
+    </section>
+    </form>
+    
+    
+    
+    
+    </main>
+
+    <footer><p>Direitos reservados à Hollow Knight Silksong @2026</p></footer>
+</body>
+</html>

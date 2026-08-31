@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 07: Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .bordinha {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-4 mb-3">
+    <h1>Aula 07: Bootstrap</h1>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">Aula 7 Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="https://getbootstrap.com/" target="_blank" class="nav-link">Site Oficial</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.w3schools.com/" target="_blank" class="nav-link">W3Schools</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="container mb-4">
+    <section class="p-4 bg-white rounded shadow-sm bordinha">
+      <div class="row g-4 mb-4">
+        <!-- Coluna 1 -->
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <h2>O Framework</h2>
+          <p>Bootstrap é um framework de desenvolvimento web gratuito e open-source que fornece ferramentas e componentes pré-estilizados para criar sites e aplicações web de forma rápida e eficiente.</p>
+        </div>
+        
+        <!-- Coluna 2 -->
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <h2>Recursos</h2>
+          <ul>
+            <li><strong>Grid System:</strong> Sistema de grade para layout responsivo.</li>
+            <li><strong>Componentes:</strong> Botões, formulários, navegação, modais, etc.</li>
+            <li><strong>JavaScript:</strong> Plugins interativos como carrosséis e pop-ups.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Imagem -->
+      <div class="row">
+        <div class="col-12 text-center p-3">
+          <img src="sla2.png" alt="master" class="img-fluid rounded">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+    <div class="container">
+      <p class="mb-1">Rodapé</p>
+      <small class="text-white-50">Este é um exemplo de rodapé formatado com Bootstrap.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+header, body {
+    background-color: rgb(32, 28, 28);
+    color: whitesmoke;
+}
+
+table {
+    text-align: center;
+    border: 2px solid tomato;
+    border-radius: 10px;
+   
+}
+
+
+th {
+    padding-left: 10, 12;
+}
+

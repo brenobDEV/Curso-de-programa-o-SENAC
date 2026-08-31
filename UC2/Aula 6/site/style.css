@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kaushan+Script&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kaushan+Script&family=Londrina+Shadow&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kaushan+Script&family=Londrina+Shadow&family=Sekuya&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#logo {
+    max-width: 300px;
+    padding-top: 20px;
+}
+
+
+
+h1 {
+    padding-top: 10px;
+}
+
+
+
+header {
+    background-color: rgb(36, 34, 34);
+    border: 2px solid white;
+    color: white;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 25px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 50px;
+    ;
+}
+
+.Links {
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo2 {
+    max-width: 100px;
+    display: block;
+    position: absolute;
+    left: 25px;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    font-family: "Kaushan Script", cursive;
+    display: inline-block;
+    transition: 1s;
+    font-size: 16px;
+
+    &:hover {
+        color: rgb(143, 49, 143);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 1px 60px;
+        background-color: rgba(230, 221, 221, 0.144);
+        font-size: 18px;
+    }
+}
+
+h2 {
+    font-family: "Sekuya", system-ui;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin: 2px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+main {
+    padding-top: 0px;
+    background-color: rgb(36, 34, 34);
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+main p {
+    color: white;
+    font-family: "Story Script", sans-serif;
+}
+
+
+#Sobre_o_jogo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(31, 29, 29);
+    border: 2px solid rgb(36, 34, 34);
+    border-top: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+#Treiler {
+    text-align: center;
+}
+
+#Trilha_sonora {
+    text-align: center;
+}
+
+audio {
+    padding: 50px;
+}
+
+
+.data-braba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+
+table {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+td {
+    background-color: rgb(46, 38, 38);
+    text-align: center;
+}
+
+
+
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+
+
+
+.Recurso {
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(26, 24, 24);
+    border-radius: 2px;
+    border-right: 1px solid white;
+}
+
+th[scope="col"] {
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(27, 27, 27);
+}
+
+th[scope="row"] {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.preço_destaque {
+    color: rgb(203, 240, 203);
+    font-size: 25px;
+}
+
+.normal {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid snow;
+    background-color: rgb(27, 27, 27);
+}
+
+.preço {
+    font-size: 20px;
+}
+
+.preço_baixo {
+    font-size: 15px;
+}
+
+#butão {
+    text-align: center;
+
+}
+
+a button {
+    background-color: red;
+    color: white;
+    font-family: "Story Script", sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    font-size: 13px;
+    transition: 1s;
+
+    &:hover {
+        font-size: medium;
+        background-color: rgba(255, 0, 0, 0.582);
+        cursor: pointer;
+    }
+}
+
+.campo {
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    font-family: "Playfair Display", serif;
+}
+
+.acampo {
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    font-family: "Playfair Display", serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(58, 55, 55, 0.486);
+    color: white;
+    padding-top: 30px;
+    max-width: 700px;
+    width: 700px;
+    margin: auto;
+
+}
+
+form h2 {
+    padding-top: 0px;
+}
+
+.butao_campo {
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+button {
+    font-family: "Story Script", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgba(255, 99, 71, 0.418);
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    transition: 1s;
+
+    &:hover {
+        font-size: 18px;
+        background-color: rgba(255, 0, 0, 0.582);
+        cursor: pointer;
+    }
+}
+
+#recado {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#arquivo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.campo {
+    text-align: center;
+    justify-content: center;
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+}
+
+#bb {
+    gap:10px;  
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+textarea {
+    padding: 10px 200px;
+    border: 3px solid red;
+    border-radius: 10px ;
+
+}
+
+option {
+    border: 10px solid red;
+}

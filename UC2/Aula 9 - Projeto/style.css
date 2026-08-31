@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Climate+Crisis:YEAR@1979&display=swap');
+  
+header {
+    background-color:#BBD1BB;
+}
+h1 {
+    font-family: Chewy;
+    letter-spacing: 4px;
+}
+
+h2{
+    letter-spacing: 2px;
+ font-family: "Climate crisis";
+ padding-bottom: 10px;
+}
+
+p {
+    font-family: Chewy;
+    font-size: 20px;
+}
+
+#navzinha {
+    font-size: 18px;
+    
+}
+
+.obra {
+    border: 2px solid black;
+    box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in;
+    
+&:hover{
+    transform: translateY(-10px);
+    background-color: rgba(252, 245, 245, 0.836) ;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0), 0px 0px 3px rgb(0, 0, 0), 0px 0px 3px rgb(0, 0, 0);
+}
+}
+
+.obra img {
+    width: 260px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+
+h3 {
+    font-family: "Climate crisis";
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #dbf1db;
+
+}
+
+.principal{
+    font-size: 15px;
+    transition: all 1s ease-in; 
+    padding: 2px 10px; 
+    border: 1px solid transparent; 
+    border-radius: 10px;
+    text-decoration: none; 
+    color: #333; 
+
+    &:hover {
+        border: 1px solid black;
+        padding-left: 15px ;
+        padding-right: 15px ;
+        border-color: black; 
+        background-color: rgb(56, 56, 56);
+        color: rgb(201, 197, 197) !important;
+        box-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
+    }
+}   
+
+header {
+    border: 2px solid black;
+    border-bottom: 1px solid transparent;
+}
+main {
+    background-color: #F4F1EA;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#inicio {
+    border: 1px solid black;
+    padding:15px;
+    text-align: center;
+}
+
+#sobre {
+    
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#a{
+     border-bottom: 1px solid black;
+}
+
+#galeria {
+    padding-top: 10px;
+    
+
+}
+
+#fundo {
+    color: rgb(109, 83, 70);
+    padding-bottom: 10px;
+    border-left: 2px solid black;
+    
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-family: chewy;
+    background-color:#BBD1BB;
+}
+
+#artigo {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.nav-link {
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  color: #222; 
+  text-decoration: none;
+  padding: 6px 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.5s ease-in;
+ 
+  &:hover{
+    transform: translateY(-4px)
+  }
+}
+
+
+button a{
+    font-size: 17px;
+    transition: all 1s ease-in; 
+    padding: 2px 10px; 
+    border: 1px solid transparent; 
+    border-radius: 10px;
+    text-decoration: none; 
+    color: #333; 
+    transition: all 0.4s ease;
+    font-family: chewy;
+    letter-spacing: 2px;
+
+    &:hover {
+        color: rgb(252, 254, 255) !important;
+        
+    }
+}
+
+.formulario2 {
+    border: 1px solid black;
+    font-family: chewy;
+}
+
+label {
+    font-family: "Climate crisis";
+}
+
+::placeholder { text-align: center;
+
+}
+
+input, textarea{
+    box-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 0px 0px 4px black,0px 0px 4px black,0px 0px 4px black;
+    }
+}
+
+form {
+    transition: all 1s ease-in;
+}
+
+.enviar {
+    transition: all 0.4s ease-in;
+     box-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
+    
+     &:hover{
+        transform: translateY(-2px);
+        font-size: 17px;
+        box-shadow: 0px 0px 4px black,0px 0px 4px black,0px 0px 4px black;
+    }
+}
+
+.voltar {
+    transition: all 0.5s ease;
+    border-top: 1px solid black;
+    &:hover{
+        border: 1px solid black;
+        text-decoration: underline;
+    }
+}
+
+

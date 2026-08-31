@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kaushan+Script&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kaushan+Script&family=Londrina+Shadow&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Kaushan+Script&family=Londrina+Shadow&family=Sekuya&family=Story+Script&display=swap');
+
+#logo {
+    max-width: 300px;
+    padding-top: 20px;
+}
+
+#logo2 {
+    max-width: 100px;
+    padding-top: 0px;
+}
+
+
+h1 {
+    padding-top: 10px;
+}
+
+
+
+header {
+    background-color: rgb(36, 34, 34);
+    border: 2px solid white;
+    color: white;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-size: 10px;
+
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 20px;
+    margin: 0;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    font-family: "Kaushan Script", cursive;
+    padding-top: 10px;
+    padding-left: 150px;
+    
+
+
+    & :hover {
+        color: rgb(143, 49, 143);
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Sekuya", system-ui;
+    color: white;   
+    text-align: center;
+    font-size: xx-large;
+    margin: 2px;
+}
+
+main {
+    padding-top: 0px;
+    background-color:  rgb(36, 34, 34);
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+main p{
+    color: white;
+    max-width: 800px;
+    font-family: "Story Script", sans-serif;
+}
+
+
+#Sobre_o_jogo {
+    display: flex;         
+    align-items: center;  
+    gap: 30px;            
+    padding: 20px;         
+  }
+  
+footer {
+    background-color: rgb(31, 29, 29);
+    border: 2px solid rgb(36, 34, 34);
+    border-top: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+#Treiler {
+    text-align: center;
+}
+
+#Trilha_sonora {
+    text-align: center;
+}
+
+audio { padding: 50px;}
+
+#data {
+    text-align: center;
+        
+}
+  
