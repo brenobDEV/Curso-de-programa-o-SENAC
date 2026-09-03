@@ -24,3 +24,11 @@ lista_dicionario_de_produtos_json = [
     {"id": 2, "nome": "Notebook", "preco": 3500}
 ]
 #--------------------------------------------------------------------------------#
+def retornar()
+    return "au au", "meow"
+print(retornar()[1])
+#Return, diferentemente do print ele armazena a informação para usarmos em outros lugares poreém depois precisamos PRINTAR A FUNÇÃO.
+#ele pode ser em lista 
+
+#------------------------------------------------------------------------------------#
+"\n->" #dá espaço automaticamente na frase
